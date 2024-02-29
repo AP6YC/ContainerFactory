@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
         #   context: "{{defaultContext}}:dockerfiles"
-          file: dockerfiles/neofetch.Dockerfile
+          file: dockerfiles/onefetcher.Dockerfile
           push: true
           tags: AP6YC/onefetcher:latest
 
