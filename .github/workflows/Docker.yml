@@ -36,7 +36,7 @@ jobs:
         #   context: "{{defaultContext}}:dockerfiles"
           file: dockerfiles/onefetcher.Dockerfile
           push: true
-          tags: AP6YC/onefetcher:latest
+          tags: ghcr.io/AP6YC/onefetcher:latest
 
 # name: Docker
 
